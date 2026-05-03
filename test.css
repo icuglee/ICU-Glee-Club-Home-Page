@@ -36,12 +36,19 @@ body {
 
 /* 透明（＝背景①が見える）+ 文字 */
 .caption {
-  padding: 10vh;
+  padding: 7vh;
   color: rgb(218, 218, 218);
   font-size: 10rem;
   text-align: right;
 
   line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .caption {
+    font-size: 6rem;
+    padding: 7vh;
+  }
 }
 
 /* 中間 black box */
