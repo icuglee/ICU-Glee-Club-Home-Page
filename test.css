@@ -1,5 +1,6 @@
 html {
   overscroll-behavior: none;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
 }
 
@@ -38,7 +39,9 @@ body {
 .caption {
   padding: 7vh;
   color: rgb(218, 218, 218);
+  font-family: "Roboto", sans-serif;
   font-size: 10rem;
+  font-weight: 100;
   text-align: right;
 
   line-height: 1.1;
@@ -47,7 +50,6 @@ body {
 @media (max-width: 768px) {
   .caption {
     font-size: 6rem;
-    padding: 7vh;
   }
 }
 
